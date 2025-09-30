@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SwasthyaSetu Hospital Dashboard Design System 
+Professional medical interface colors - All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Hospital Theme - Clean, professional whites and blues */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Medical Blue - Professional, trustworthy */
+    --primary: 208 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 208 100% 95%;
+
+    /* Light Grey - Clean, minimal */
+    --secondary: 210 20% 98%;
+    --secondary-foreground: 215 25% 27%;
+
+    /* Subtle Grey - Supporting elements */
+    --muted: 210 20% 98%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Soft Blue Accent - Interactive elements */
+    --accent: 208 100% 97%;
+    --accent-foreground: 208 100% 50%;
+
+    /* Medical Green - Success, health */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 142 76% 95%;
+
+    /* Medical Orange - Warning, attention */
+    --warning: 32 95% 44%;
+    --warning-foreground: 0 0% 100%;
+    --warning-light: 32 95% 95%;
+
+    /* Medical Red - Errors, critical */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --destructive-light: 0 72% 95%;
+
+    /* Borders and inputs - Subtle, clean */
+    --border: 210 20% 92%;
+    --input: 210 20% 92%;
+    --ring: 208 100% 50%;
+
+    /* Hospital-grade shadows */
+    --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-medical: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Professional transitions */
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    /* Sidebar - Clean medical interface */
+    --sidebar-background: 248 100% 99%;
+    --sidebar-foreground: 215 25% 27%;
+    --sidebar-primary: 208 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 98%;
+    --sidebar-accent-foreground: 215 25% 27%;
+    --sidebar-border: 210 20% 92%;
+    --sidebar-ring: 208 100% 50%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 200 95% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary-glow: 200 95% 65%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 160 60% 55%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-glow: 160 60% 70%;
+
+    --success: 120 60% 60%;
+    --success-foreground: 222.2 47.4% 11.2%;
+
+    --warning: 38 92% 60%;
+    --warning-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 200 95% 50%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(var(--accent)));
+    --gradient-background: linear-gradient(180deg, hsl(var(--background)), hsl(217.2 32.6% 12%));
+
+    --shadow-medical: 0 4px 20px -4px hsl(var(--primary) / 0.25);
+    --shadow-card: 0 2px 10px -2px hsl(var(--primary) / 0.15);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
