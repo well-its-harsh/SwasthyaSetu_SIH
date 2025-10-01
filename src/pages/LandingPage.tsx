@@ -35,8 +35,8 @@ const LandingPage: React.FC = () => {
                   FHIR R4 Compliant
                 </Badge>
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  SwasthyaSetu
-                  <span className="block text-blue-600">Bridge to Health</span>
+                  SwasthyaNet
+                  <span className="block text-blue-600">Network of Health</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   Connecting AYUSH medicine with global healthcare systems through smart, 
@@ -75,7 +75,7 @@ const LandingPage: React.FC = () => {
                       <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
                     </div>
                     <div className="text-center mt-4">
-                      <div className="text-sm font-semibold text-blue-600">SwasthyaSetu</div>
+                      <div className="text-sm font-semibold text-blue-600">SwasthyaNet</div>
                     </div>
                   </div>
                   
@@ -99,9 +99,9 @@ const LandingPage: React.FC = () => {
       {/* About Section */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">About SwasthyaSetu</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-8">About SwasthyaNet</h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            SwasthyaSetu is a FHIR R4–compliant terminology microservice designed to seamlessly 
+            SwasthyaNet is a FHIR R4–compliant terminology microservice designed to seamlessly 
             integrate AYUSH diagnoses (NAMASTE codes) with global ICD-11 standards. It ensures 
             that traditional knowledge is preserved while making it interoperable with insurers, 
             hospitals, and international systems.
@@ -164,14 +164,14 @@ const LandingPage: React.FC = () => {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">The SwasthyaSetu Bridge</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">The SwasthyaNet Bridge</h2>
             <p className="text-xl text-gray-600">Seamless integration between traditional and modern healthcare</p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                With SwasthyaSetu, NAMASTE terms and ICD-11 codes are automatically linked 
+                With SwasthyaNet, NAMASTE terms and ICD-11 codes are automatically linked 
                 and stored in the patient's health record. A doctor can enter a traditional 
                 diagnosis, and the system instantly maps it to the equivalent ICD-11 term. 
                 This preserves AYUSH authenticity while ensuring compatibility with global 
@@ -209,7 +209,7 @@ const LandingPage: React.FC = () => {
                     <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
                       <Database className="h-6 w-6 text-white" />
                     </div>
-                    <div className="text-sm font-medium text-gray-700">SwasthyaSetu</div>
+                    <div className="text-sm font-medium text-gray-700">SwasthyaNet</div>
                   </div>
                   <ArrowRight className="h-5 w-5 text-gray-400" />
                   <div className="text-center">
@@ -229,7 +229,7 @@ const LandingPage: React.FC = () => {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">What Makes SwasthyaSetu Unique</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">What Makes SwasthyaNet Unique</h2>
             <p className="text-xl text-gray-600">Powerful features for seamless healthcare integration</p>
           </div>
           
@@ -286,7 +286,7 @@ const LandingPage: React.FC = () => {
             </div>
             <blockquote className="text-2xl text-gray-700 italic leading-relaxed mb-6">
               "Doctors in our network confirmed the need — documentation is slow, coding is 
-              confusing, and AYUSH often gets left out. SwasthyaSetu makes their workflow 
+              confusing, and AYUSH often gets left out. SwasthyaNet makes their workflow 
               faster and recognized globally."
             </blockquote>
             <div className="text-sm text-gray-500">

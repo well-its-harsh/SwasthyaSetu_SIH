@@ -19,7 +19,7 @@ export default function Index() {
       case "encounter": return "Patient Record Upload";
       case "analytics": return "Analytics Dashboard";
       case "abha": return "ABHA Integration";
-      default: return "SwasthyaSetu Dashboard";
+      default: return "SwasthyaNet Dashboard";
     }
   };
 

@@ -85,7 +85,7 @@ export default function Dashboard({ onNavigate }: DashboardProps) {
         <div className={`transition-all duration-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Welcome to SwasthyaSetu
+              Welcome to SwasthyaNet
               <Badge variant="outline" className="ml-3 bg-green-50 text-green-700 border-green-200">
                 Demo Mode
               </Badge>

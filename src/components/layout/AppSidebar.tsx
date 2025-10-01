@@ -86,7 +86,7 @@ export function AppSidebar({ currentPage, onNavigate }: AppSidebarProps) {
             </div>
             {!collapsed && (
               <div>
-                <h2 className="font-bold text-gray-900 text-lg">SwasthyaSetu</h2>
+                <h2 className="font-bold text-gray-900 text-lg">SwasthyaNet</h2>
                 <p className="text-xs text-gray-500">Bridge to Health</p>
               </div>
             )}
